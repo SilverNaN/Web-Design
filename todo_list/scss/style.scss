@@ -1,0 +1,86 @@
+* {
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0;
+	box-sizing: border-box;
+}
+@mixin Title-Style {
+	background-image:linear-gradient(to right, black, #555);
+	color: white;
+	padding:20px 0px;
+}
+@mixin Hover-Effect {
+	color: #555;
+}
+
+.title {
+	@include Title-Style;
+	text-align: center;
+}
+.addTask 
+{
+	display: flex;
+	padding: 20px 0px;
+	justify-content: center;
+	#inputRow {
+		font-size: 30px;
+		border: none;
+		border-bottom: 2px solid black;
+	}
+	#addButton {
+		margin-left: 20px;
+		background-color:transparent;
+		border: none;
+		font-size: 25px;
+	}
+}
+.task-wrapper{
+	@include Title-Style;
+	padding: 20px 0px;
+	position: relative;
+	.task-title{
+		display: inline;
+		position: relative;
+		left:40%;
+		top: 0px;
+	}
+	#clearButton{
+		position: absolute;
+		right:10px;
+		top:25px;
+		background-color:transparent;
+		color:white;
+		border: none;
+	}
+}
+.taskListWrapper{
+	display: flex;
+	width:100%;
+	justify-content: center;
+	.taskList{
+		list-style:none;
+		font-size:30px;
+		.completeItem input{
+			border: none;
+			font-size: 30px;
+		}
+		.activeItem input{
+			border: none;
+			font-size: 30px;
+		}
+		.completeItem:hover{
+			background-color:#ccc;
+			input{
+				background-color:#ccc;
+			}
+		}
+		.activeItem:hover{
+			background-color:#ccc;
+			input{
+				background-color:#ccc;
+			}
+		}
+	}
+	
+}
+
+

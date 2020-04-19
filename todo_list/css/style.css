@@ -1,0 +1,104 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.title {
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(#555));
+  background-image: linear-gradient(to right, black, #555);
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.addTask {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.addTask #inputRow {
+  font-size: 30px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.addTask #addButton {
+  margin-left: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+}
+
+.task-wrapper {
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(#555));
+  background-image: linear-gradient(to right, black, #555);
+  color: white;
+  padding: 20px 0px;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.task-wrapper .task-title {
+  display: inline;
+  position: relative;
+  left: 40%;
+  top: 0px;
+}
+
+.task-wrapper #clearButton {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.taskListWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.taskListWrapper .taskList {
+  list-style: none;
+  font-size: 30px;
+}
+
+.taskListWrapper .taskList .completeItem input {
+  border: none;
+  font-size: 30px;
+}
+
+.taskListWrapper .taskList .activeItem input {
+  border: none;
+  font-size: 30px;
+}
+
+.taskListWrapper .taskList .completeItem:hover {
+  background-color: #ccc;
+}
+
+.taskListWrapper .taskList .completeItem:hover input {
+  background-color: #ccc;
+}
+
+.taskListWrapper .taskList .activeItem:hover {
+  background-color: #ccc;
+}
+
+.taskListWrapper .taskList .activeItem:hover input {
+  background-color: #ccc;
+}
+/*# sourceMappingURL=style.css.map */

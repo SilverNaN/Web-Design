@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">:: Todo List ::</h1>
+    </div>
+
+    <div class="addTask">
+        <input type="text" id="inputRow" placeholder="Add a Task ...">
+        <button id="addButton">+</button>
+    </div>
+
+    <div class="task-wrapper">
+        <h1 class="task-title"> Tasks </h1>
+        <button id="clearButton">Clear Complete</button>
+    </div>
+
+    <div class="taskListWrapper">
+        <!-- Leave the section as blank due to no items-->
+        <ul class="taskList"> 
+            
+        </ul>
+    </div>
+    <!--Add a template for later use-->
+    <template class="templateList">
+        <li class="taskItem">
+            <label for="Completed"> </label>
+            <input type="text", id="Completed",text="Completed">
+        </li>
+    </template>
+    <script src="./js/main.js"></script>
+</body>
+
+
+</html>
