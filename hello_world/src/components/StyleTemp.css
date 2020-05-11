@@ -1,0 +1,9 @@
+.primary-content {
+  background-color: red;
+  color: white;
+}
+
+.optional-content {
+  font-weight: bold;
+  font-size: 90px;
+}

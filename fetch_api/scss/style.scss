@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #777;
+}
+
+#posts {
+    display: grid;
+    width: 1vw;
+    grid-template-columns: repeat(5,1fr);
+    align-content: center;
+    gap: 10px;
+    
+}
+
+.post {
+    background-color:#ccc;
+    border:1px solid black;
+    border-radius: 5px;
+    h4{
+        margin: 5px;
+        background-color:#ccc;
+    }
+    p{
+        margin: 5px;
+        background-color:#ccc;
+    }
+}

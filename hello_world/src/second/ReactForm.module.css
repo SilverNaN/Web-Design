@@ -1,0 +1,26 @@
+.form_content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 600px;
+  border: 1px solid black;
+}
+
+.user_input_label {
+  padding-right: 70px;
+}
+.user_comment_label {
+  padding-right: 47px;
+}
+.user_semantic_label {
+  padding-right: 17px;
+}
+.user_comment {
+  display: flex;
+  align-items: flex-start;
+}
+
+.button_style {
+  align-self: center;
+  margin-top: 40px;
+}

@@ -1,0 +1,34 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  background-color: #777;
+}
+
+#posts {
+  display: -ms-grid;
+  display: grid;
+  width: 1vw;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 10px;
+}
+
+.post {
+  background-color: #ccc;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.post h4 {
+  margin: 5px;
+  background-color: #ccc;
+}
+
+.post p {
+  margin: 5px;
+  background-color: #ccc;
+}
+/*# sourceMappingURL=style.css.map */
